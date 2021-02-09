@@ -28,7 +28,7 @@
         text-align: left;
         font-family: 'Neon 80s', Arial, Helvetica, sans-serif;                          
         color: var(--light);
-        padding: 0% 2rem 0% 0%;
+        /* padding: 0% 0% 0% 0%; */
         text-transform: uppercase;
         font-size: 5rem;
         letter-spacing: 1.3rem;
@@ -55,12 +55,7 @@
     p .pink-text {
         color: var(--neonPink);
     }
-    a {
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: none;
-    }
+    
     .container {
         margin: auto;
         width: 74vw;

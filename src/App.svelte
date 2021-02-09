@@ -30,7 +30,8 @@
 		--bg: #202426;
 		--grey: #8c8c88;
 		--light: #f2f2f2;
-		--neonPink: #f24987ab;
+		--neonPink: #f24987;
+		--neonPinkOpacity: #f2498783;
     font-family: 'Roboto', sans-serif;
 	}
 
@@ -38,15 +39,8 @@
 		background: var(--bg);
 		background-image: url("/assets/img/noise-light.png");
 		color: var(--light);
-    width: inherit; 
-    min-height: inherit; 
-    margin: 0; 
-    padding: 0; 
 	}
 
-  :global(a) {
-    text-decoration: none;
-  }
   :global(html) { 
       width: 100%; 
       min-height: 100%; 
@@ -63,17 +57,16 @@
     padding: 0; 
 } */
   
-  main {
-    max-width: 1024px;
+  /* main {
     margin: 0 auto;
-  }
+  } */
 
 	header {
-        margin: 0% 0% 5% 0%;
+        margin: 0% 0% 4% 0%;
 	}
-  @media (max-width: 640px) {
+  /* @media (max-width: 640px) {
 		main {
 			max-width: none;
 		}
-	}
+	} */
 </style>
