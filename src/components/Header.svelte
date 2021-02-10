@@ -38,7 +38,7 @@
             0 0 90px rgba(255, 0, 84, 0.1);
     }
     h4 {
-        margin: 0% 0% 1% 0%;
+        margin: 0% 0% 2% 0%;
         font-size: 1.7rem;
         color: var(--neonPink);
         letter-spacing: 0.11rem;
@@ -49,7 +49,7 @@
     p {
         margin: auto 15% auto auto;
         text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.85);
-        letter-spacing: 0.1rem;
+        /* letter-spacing: 0.09rem; */
         line-height: 1.4rem;
     }
     p .pink-text {

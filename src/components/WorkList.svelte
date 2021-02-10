@@ -244,7 +244,8 @@
     }
     .sticky-box {
         position: sticky;
-        top: 25%;
+        position: -webkit-sticky;
+        top: 10%;
     }
 
     .item-3 {
@@ -252,5 +253,20 @@
         position: absolute;
         z-index: -2;
         width: 35%;
+    }
+    @media (max-width: 1024px) {
+        .item {
+            flex: 99%;
+            margin: 0% 1% 4% 1%;
+        }
+        h4 {
+            margin-right: -1%;
+        }
+    }
+    @media (max-width: 640px) {
+        .item {
+            width: 99%;
+            margin: 0% 3% 4% 3%;
+        }
     }
 </style>
