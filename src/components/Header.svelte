@@ -28,7 +28,6 @@
         text-align: left;
         font-family: 'Neon 80s', Arial, Helvetica, sans-serif;                          
         color: var(--light);
-        /* padding: 0% 0% 0% 0%; */
         text-transform: uppercase;
         font-size: 5rem;
         letter-spacing: 1.3rem;
@@ -49,7 +48,6 @@
     p {
         margin: auto 15% auto auto;
         text-shadow: 1px 1px 30px rgba(0, 0, 0, 0.85);
-        /* letter-spacing: 0.09rem; */
         line-height: 1.4rem;
     }
     p .pink-text {
@@ -58,7 +56,7 @@
     
     .container {
         margin: auto;
-        width: 74vw;
+        width: 80vw;
         height: 100%;
         padding: 3% 3% 3% 3%;
         color: #fff;

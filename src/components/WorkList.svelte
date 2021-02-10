@@ -166,7 +166,7 @@
                 </p>
             </div>
 
-            <div class="item2">
+            <div class="chips-container">
                 {#each work.chips as chip}
                     <div class="chips">{chip}</div>
                 {/each}
@@ -206,15 +206,8 @@
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: space-between;
-        width: 74vw;
+        width: 80vw;
         margin: auto;
-        /* width: 70vw;
-        display: flex;
-        flex-wrap: wrap;
-        height: auto;
-        justify-content: space-between;
-        
-        margin: auto; */
     }
 
     .item {
@@ -228,9 +221,9 @@
         background-color: var(--neonPinkOpacity);
         box-shadow: 1px 1px 80px 8px var(--grey) inset;
         box-shadow: 2px 2px 40px 8px var(--bg);
-        /* width: 0 48%;
-        
-         */
+    }
+    .chips-container {
+        margin: 3%;
     }
     .chips {
         display: inline-flex;

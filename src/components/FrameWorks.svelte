@@ -51,7 +51,7 @@
     .container {
         display: flex;
         flex-wrap: wrap;
-        width: 74vw;
+        width: 80vw;
         height: 100%;
         padding: 3% 3% 3% 3%;
         color: #fff;
@@ -69,13 +69,13 @@
     }
     .item {
         flex: 0 33%;
-        margin: 3% 0% 3% 0%;
+        margin: 1% 0% 1% 0%;
         padding: 1% 1% 1% 1%;
     }
     @media (max-width: 1024px) {
         .item {
             flex: 0 48%;
-            margin: 0% 1% 4% 1%;
+            margin: 0% 1% 3% 1%;
         }
     }
     @media (max-width: 640px) {
