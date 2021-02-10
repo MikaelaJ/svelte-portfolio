@@ -51,7 +51,7 @@
             id: 3,
             title: "Band Site",
             info:
-                "This site was developed during last year of my education. Togheter with two other classmates we've created a site for a made up band (this case Bob Marley) using Jekyll. We went banans on CSS and animations to make this a playful site. When do you ever get to play around like that if not in school, a very fun projekt.",
+                "This site was developed during last year of my education. Togheter with two other classmates we've created a site for a made up band (this case Bob Marley) using Jekyll. We went banans on CSS and animations to make this a playful site. When do you ever get to play around like that if not in school, a very fun project.",
             chips: ["Jekyll", "Parallax", "CSS"],
             link: "https://band-site-jekyll.netlify.app/index.html",
             img: "/assets/img/convictus_logo.png",

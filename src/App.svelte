@@ -54,6 +54,11 @@
   footer {
     margin: 4% 0% 0% 0%;
   }
+  @media (min-width: 2000px) {
+    main, header {
+      max-width: 50vw;
+    }
+  }
   @media (max-width: 640px) {
     main {
       max-width: none;
