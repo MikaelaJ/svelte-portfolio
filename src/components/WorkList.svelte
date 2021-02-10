@@ -258,8 +258,13 @@
     }
     @media (max-width: 640px) {
         .item {
-            width: 99%;
+            width: 100%;
             margin: 0% 3% 4% 3%;
+        }
+
+        p {
+            font-size: 0.8rem;
+            line-height: 1.3rem;
         }
     }
 </style>

@@ -85,14 +85,16 @@
     }
     @media (max-width: 640px) {
         h1 {
-            font-size: 3rem;
+            font-size: 2rem;
             letter-spacing: 0.8rem;
+            line-height: 2.5rem;
         }
         h4 {
-            font-size: 1.3rem;
+            font-size: 1.1rem;
+            line-height: 1.8rem;
         }
         p {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
     }
 </style>
