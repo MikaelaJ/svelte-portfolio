@@ -83,5 +83,8 @@
             width: 99%;
             margin: auto;
         }
+        .container {
+            width: 95vw;
+        }
     }
 </style>

@@ -60,8 +60,9 @@
     }
   }
   @media (max-width: 640px) {
-    main {
+    main, header {
       max-width: none;
+      margin: 0% 0% 5% 0%;
     }
   }
 </style>

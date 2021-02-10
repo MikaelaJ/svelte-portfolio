@@ -228,7 +228,7 @@
     .chips {
         display: inline-flex;
         color: var(--light);
-        border-width: 2px;
+        border-width: 1px;
         border-style: dotted;
         border-radius: 25px;
         text-align: left;
@@ -248,10 +248,18 @@
         width: 35%;
     }
     @media (max-width: 1024px) {
+        p {
+            min-height: 8vh;
+        }
+
         .item {
             flex: 99%;
+            min-height: 15vh;
             margin: 0% 1% 4% 1%;
         }
+        .item-3 {
+        width: 40%;
+    }
         h4 {
             margin-right: -1%;
         }
@@ -261,10 +269,20 @@
             width: 100%;
             margin: 0% 3% 4% 3%;
         }
+        .item-3 {
+        width: 80%;
+    }
+        h4 {
+            line-height: 1.5rem;
+        }
 
         p {
             font-size: 0.8rem;
             line-height: 1.3rem;
+        }
+        
+        .container {
+            width: 95vw;
         }
     }
 </style>
