@@ -302,18 +302,7 @@
         margin: 1% 1% 1% 1%;
         padding: 1% 2% 1% 2%;
     }
-    /* .sticky-box {
-        position: sticky;
-        position: -webkit-sticky;
-        top: 10%;
-    }
-
-    .item-3 {
-        margin: 0% 0% 0% 0%;
-        position: absolute;
-        z-index: -2;
-        width: 35%;
-    } */
+    
     @media (max-width: 1024px) {
         p {
             min-height: 8vh;
