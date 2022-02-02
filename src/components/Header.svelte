@@ -12,12 +12,6 @@
             background in combination with technology has proven successful in
             previous positions, where my technical interest together with my
             creative side has been perceived as a strength. <br />
-            <strong class="pink-text">
-                I'm looking for new opportunities! <a
-                    href="mailto:mikaela@mikaelajohansson.com?subject=Found your site, just wanted to say hi! 😃"
-                    >Get in touch.</a
-                ></strong
-            >
         </p>
     </div>
 </header>
